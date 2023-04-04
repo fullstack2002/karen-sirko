@@ -8,54 +8,50 @@
   }
   .body {
     position: absolute;
-    width: 350px;
+    width: 320px;
     height: 350px;
-    background: linear-gradient(to left, gray 5%, #464646 5%, gray 75%, #464646 75%);      
-    background-size: 12px 55px;
-    border-radius: 35% 35% 0 0;
+    background-color: #942929;      
+    border-radius: 110px 110px 0 0;
     bottom: -20%;
-    left: 27.5%;
+    left: 29.5%;
     z-index: 3;
-  }
-  .body::before {
-    content: "";
-    background-color: #fcd8a8;
-    width: 75px;
-    height: 85px;
-    position: absolute;
-    display: block;
-    left: 40%;
-    top: -15%;
-    border-radius: 0 0 50% 50%;
   }
   .body::after {
     content: "";
     background-color: #fdd39b;
     width: 75px;
-    height: 88px;
+    height: 96px;
     position: absolute;
     display: block;
     left: 40%;
     top: -20%;
-    border-radius: 0 0 150px 150px;
+    border-radius: 0 0 100px 100px;
+  }
+  .shirt {
+    border-radius: 10px 10px 0;
+    border-top: 100px solid #fdd39b;
+    border-right: 38px solid transparent;
+    border-left: 38px solid transparent;
+    position: absolute;
+    top: -1%;
+    left: 40%;
+    z-index: 4;
   }
   .left-arm {
-    width: 5px;
-    height: 100px;
-    background-color: #393939;
     position: absolute;
-    border-radius: 50px 50px 0 0;
-    top: 28%;
+    border-bottom: 70px solid #38383856;
+    border-right: 7px solid transparent;
+    border-left: 5px solid transparent;
+    top: 29%;
     left: 20%;
   }
   .right-arm {
-    width: 5px;
-    height: 100px;
-    background-color: #393939;
+    border-bottom: 70px solid #38383856;
+    border-right: 5px solid transparent;
+    border-left: 7px solid transparent;
     position: absolute;
-    border-radius: 50px 50px 0 0;
-    top: 28%;
-    left: 78%;
+    top: 29%;
+    left: 77%;
   }
   .face {
     width: 180px;
@@ -77,35 +73,37 @@
     top: 41.5%;
     left: 46%;
     z-index: 3;
+    transform: rotate(5deg);
   }
   .eyebrow1-part {
     width: 25px;
     height: 8px;
     position: absolute;
     background-color: #463118;
-    border-radius: 5px 100px 5px 100px;
-    top: 41.8%;
+    border-radius: 5px 100px 100px 100px;
+    top: 41.5%;
     left: 44%;
     z-index: 3;
-    transform: rotate(160deg);
+    transform: rotate(170deg);
   }
   .eyebrow2 {
     width: 40px;
     height: 8px;
     position: absolute;
     background-color: #463118;
-    border-radius: 70px 100px 5px 100px;
+    border-radius: 70px 120px 5px 100px;
     top: 41.5%;
     left: 55%;
     z-index: 3;
+    transform: rotate(-4deg);
   }
   .eyebrow2-part {
     width: 25px;
     height: 8px;
     position: absolute;
     background-color: #463118;
-    border-radius: 100px 100px 5px 100px;
-    top: 41.7%;
+    border-radius: 100px 100px 100px 5px;
+    top: 41.57%;
     left: 59%;
     z-index: 3;
     transform: rotate(10deg);
@@ -173,7 +171,7 @@
     height: 10px;
     position: absolute;
     top: -47%;
-    left: 28%;
+    left: 27%;
     background-color: transparent;
     border-left: 3px solid #000000;
     border-radius: 0 0 15px 15px;
@@ -185,11 +183,23 @@
     height: 10px;
     position: absolute;
     top: -52%;
-    left: 20%;
+    left: 18%;
     background-color: transparent;
     border-left: 3px solid #000000;
     border-radius: 0 0 15px 15px;
     transform: rotate(222deg);
+    z-index: 5;
+  }
+  .eyelash6 {
+    width: 40px;
+    height: 10px;
+    position: absolute;
+    top: -52%;
+    left: 8%;
+    background-color: transparent;
+    border-left: 3px solid #000000;
+    border-radius: 0 0 15px 15px;
+    transform: rotate(218deg);
     z-index: 5;
   }
   /* .eyeliner1 {
@@ -232,64 +242,62 @@
   }
   .eye-shape1 {
     background-color: #8b665f;
-    height: 15px;
-    width: 20px;
+    height: 19px;
+    width: 24px;
     border-radius: 50%;
     position: absolute;
-    bottom: 3px;
-    right: 12px;
+    bottom: 1px;
+    right: 10px;
   }
   .eye-shape3 {
     background-color: #000000;
-    height: 10px;
-    width: 12px;
+    height: 14px;
+    width: 17px;
     border-radius: 50%;
     position: absolute;
-    bottom: 3px;
+    bottom: 4.5px;
     right: 3px;
   }
   .shape1 {
     background-color: #ffffff;
-    height: 4px;
-    width: 4px;
+    height: 5px;
+    width: 5px;
     border-radius: 50%;
     position: absolute;
-    top: 7px;
+    top: 6px;
     left: 12px;
-    box-shadow: 0.5vmin 0.5vmin 0 -0.25vmin #ffffff;
   }
   .eye-shape2 {
     background-color: #8b665f;
-    height: 15px;
-    width: 20px;
+    height: 19px;
+    width: 24px;
     border-radius: 50%;
     position: absolute;
-    bottom: 3px;
-    right: 12px;
+    bottom: 1px;
+    right: 10px;
   }
   .eye-shape4 {
     background-color: #000000;
-    height: 10px;
-    width: 12px;
+    height: 14px;
+    width: 17px;
     border-radius: 50%;
     position: absolute;
-    bottom: 3px;
+    bottom: 4.5px;
     right: 3px;
   }
   .shape2 {
     background-color: #ffffff;
-    height: 4px;
-    width: 4px;
+    height: 5px;
+    width: 5px;
     border-radius: 50%;
     position: absolute;
-    top: 7px;
+    top: 6px;
     left: 12px;
-    box-shadow: 0.5vmin 0.5vmin 0 -0.25vmin #ffffff;
   }
   .blush-left {
     width: 50px;
     height: 15px;
-    background-color: #f093d72c;
+    background-color: #f093d710;
     position: absolute;
     top: 48%;
     left: 40%;
@@ -300,7 +308,7 @@
   .blush-right {
     width: 50px;
     height: 15px;
-    background-color: #f093d72c;
+    background-color: #f093d710;
     position: absolute;
     top: 48%;
     left: 59%;
@@ -312,7 +320,7 @@
   .contouring-left {
     width: 50px;
     height: 15px;
-    background-color: #edd1a859;
+    background-color: #edd1a828;
     position: absolute;
     top: 50%;
     left: 40%;
@@ -323,7 +331,7 @@
   .contouring-right {
     width: 50px;
     height: 15px;
-    background-color: #edd1a859;
+    background-color: #edd1a828;
     position: absolute;
     top: 50%;
     left: 59%;
@@ -359,7 +367,7 @@
     top: 56%;
     left: 47.5%;
     z-index: 4;
-    background: #ff8a9e;
+    background: #fab5a4;
     clip-path: polygon(
     10% 77%,
     25% 89%,
@@ -379,7 +387,7 @@
     top: 51%;
     left: 47.5%;
     z-index: 4;
-    background: #ff8a9e;
+    background: #fab5a4;
     clip-path: polygon(
     10% 79%,
     25% 90%,
@@ -481,10 +489,10 @@
   }
   .hair-bottom {
     width: 141.5px;
-    height: 100px;
+    height: 120px;
     background-color: #c29660;
     position: absolute;
-    top: 56%;
-    left: 43.5%;
+    top: 55%;
+    left: 43%;
     z-index: 2;
   }
