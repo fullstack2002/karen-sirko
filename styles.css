@@ -1,7 +1,7 @@
   .wrapper {
     width: 700px;
     height: 700px;
-    background-color: #e4e6cf;
+    background-color: #c8cab1;
     border-radius: 50%;
     position: absolute;
     overflow: hidden;
@@ -76,37 +76,35 @@
     transform: rotate(5deg);
   }
   .eyebrow1-part {
-    width: 25px;
-    height: 8px;
     position: absolute;
-    background-color: #463118;
-    border-radius: 5px 100px 100px 100px;
-    top: 41.5%;
-    left: 44%;
+    border-right: 23px solid #463118;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    top: 41.6%;
+    left: 43.5%;
+    transform: rotate(-10deg);
     z-index: 3;
-    transform: rotate(170deg);
   }
   .eyebrow2 {
     width: 40px;
     height: 8px;
     position: absolute;
     background-color: #463118;
-    border-radius: 70px 120px 5px 100px;
+    border-radius: 70px 70px 5px 5px;
     top: 41.5%;
     left: 55%;
     z-index: 3;
     transform: rotate(-4deg);
   }
   .eyebrow2-part {
-    width: 25px;
-    height: 8px;
     position: absolute;
-    background-color: #463118;
-    border-radius: 100px 100px 100px 5px;
-    top: 41.57%;
-    left: 59%;
+    border-left: 23px solid #463118;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    top: 41.7%;
+    left: 59.8%;
+    transform: rotate(12deg);
     z-index: 3;
-    transform: rotate(10deg);
   }
   .eye1 {
     width: 45px;
@@ -131,40 +129,40 @@
     z-index: 4;
   }
   .eyelash1 {
-    width: 40px;
-    height: 10px;
     position: absolute;
-    top: -50%;
-    left: -24%;
-    background-color: transparent;
+    top: -12%;
+    left: -10%;
+    width: 10px;
+    height: 10px;
     border-left: 3px solid #000000;
-    border-radius: 15px 15px 0 0;
-    transform: rotate(-49deg);
-    z-index: 5;
+    border-top: 0px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-radius: 100%;
+    transform: rotate(-10deg);
   }
   .eyelash3 {
-    width: 40px;
-    height: 10px;
     position: absolute;
-    top: -55%;
-    left: -15%;
-    background-color: transparent;
+    top: -15%;
+    left: 0%;
+    width: 10px;
+    height: 10px;
     border-left: 3px solid #000000;
-    border-radius: 15px 15px 0 0;
-    transform: rotate(-47deg);
-    z-index: 5;
+    border-top: 0px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-radius: 100%;
+    transform: rotate(-10deg);
   }
   .eyelash5 {
-    width: 40px;
-    height: 10px;
     position: absolute;
-    top: -58%;
-    left: -5%;
-    background-color: transparent;
+    top: -18%;
+    left: 10%;
+    width: 8px;
+    height: 8px;
     border-left: 3px solid #000000;
-    border-radius: 15px 15px 0 0;
-    transform: rotate(-45deg);
-    z-index: 5;
+    border-top: 0px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-radius: 100%;
+    transform: rotate(2deg);
   }
   .eyelash2 {
     width: 40px;
