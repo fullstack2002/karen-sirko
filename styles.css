@@ -318,38 +318,55 @@
     z-index: 3;
     transform: rotate(130deg);
   }
+  .nose-line-top {
+    position: absolute;
+    top: 49%;
+    left: 52.9%;
+    width: 17px;
+    height: 2px;
+    background-color: #00000010;
+    z-index: 5;
+    transform: rotate(90deg);
+  }
   .nose-left {
-    width: 9px;
-    height: 6px;
+    width: 8px;
+    height: 5px;
     background-color: #0000006f;
     position: absolute;
     top: 53%;
-    left: 51%;
+    left: 51.5%;
     border-radius: 50%;
     z-index: 5;
   }
   .nose-line-left {
-    /* position: absolute; */
-    width: 5px;
-    height: 15px;
-    background-color: #000000;
-    top: 50%;
-    left: 50%;
-    width: 5px;
-    /* border-top-left-radius: 110px;  100px of height + 10px of border */
-    /* border-top-right-radius: 110px; 100px of height + 10px of border */
-    border: 10px solid gray;
-    border-bottom: 0;
+    position: absolute;
+    top: 52.5%;
+    left: 49.8%;
+    width: 17px;
+    height: 2px;
+    background-color: #00000010;
+    z-index: 5;
+    transform: rotate(-55deg);
   }
   .nose-right {
-    width: 9px;
-    height: 6px;
+    width: 8px;
+    height: 5px;
     background-color: #0000006f;
     position: absolute;
     top: 53%;
     left: 54%;
     border-radius: 50%;
     z-index: 5;
+  }
+  .nose-line-right {
+    position: absolute;
+    top: 52.5%;
+    left: 54.5%;
+    width: 17px;
+    height: 2px;
+    background-color: #00000010;
+    z-index: 5;
+    transform: rotate(60deg);
   }
   .top-lip {
     width: 80px;
