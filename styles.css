@@ -1,7 +1,7 @@
   .wrapper {
     width: 700px;
     height: 700px;
-    background-color: #c8cab1;
+    background-color: #c9bebe;
     border-radius: 50%;
     position: absolute;
     overflow: hidden;
@@ -39,18 +39,18 @@
   }
   .left-arm {
     position: absolute;
-    border-bottom: 70px solid #38383856;
+    border-bottom: 80px solid #38383856;
     border-right: 7px solid transparent;
     border-left: 5px solid transparent;
-    top: 29%;
+    top: 35%;
     left: 20%;
   }
   .right-arm {
-    border-bottom: 70px solid #38383856;
+    border-bottom: 80px solid #38383856;
     border-right: 5px solid transparent;
     border-left: 7px solid transparent;
     position: absolute;
-    top: 29%;
+    top: 35%;
     left: 77%;
   }
   .face {
@@ -162,52 +162,40 @@
     border-top: 0px solid transparent;
     border-bottom: 3px solid transparent;
     border-radius: 100%;
-    transform: rotate(2deg);
   }
   .eyelash2 {
-    width: 40px;
-    height: 10px;
     position: absolute;
-    top: -47%;
-    left: 27%;
-    background-color: transparent;
-    border-left: 3px solid #000000;
-    border-radius: 0 0 15px 15px;
-    transform: rotate(225deg);
-    z-index: 5;
+    top: -16%;
+    left: 60%;
+    width: 8px;
+    height: 8px;
+    border-right: 3px solid #000000;
+    border-top: 0px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-radius: 100%;
   }
   .eyelash4 {
-    width: 40px;
-    height: 10px;
     position: absolute;
-    top: -52%;
-    left: 18%;
-    background-color: transparent;
-    border-left: 3px solid #000000;
-    border-radius: 0 0 15px 15px;
-    transform: rotate(222deg);
-    z-index: 5;
+    top: -14%;
+    left: 79%;
+    width: 10px;
+    height: 10px;
+    border-right: 3px solid #000000;
+    border-top: 0px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-radius: 100%;
   }
   .eyelash6 {
-    width: 40px;
-    height: 10px;
     position: absolute;
-    top: -52%;
-    left: 8%;
-    background-color: transparent;
-    border-left: 3px solid #000000;
-    border-radius: 0 0 15px 15px;
-    transform: rotate(218deg);
-    z-index: 5;
+    top: -15%;
+    left: 68%;
+    width: 10px;
+    height: 10px;
+    border-right: 3px solid #000000;
+    border-top: 0px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-radius: 100%;
   }
-  /* .eyeliner1 {
-    width: 46px;
-    height: 15px;
-    background-color: transparent;
-    border-bottom: 3px solid #000000;
-    border-radius: 0 0 15px 17px;
-    transform: rotate(180deg);
-  } */
   .wing1 {
     position: absolute;
     top: 12%;
@@ -219,14 +207,6 @@
     border-radius: 0 0 50px 0;
     transform: rotate(5deg);
   }
-  /* .eyeliner2 {
-    width: 46px;
-    height: 15px;
-    background-color: transparent;
-    border-bottom: 3px solid #000000;
-    border-radius: 0 0 15px 17px;
-    transform: rotate(180deg);
-  } */
   .wing2 {
     position: absolute;
     top: 10%;
@@ -347,6 +327,19 @@
     left: 51%;
     border-radius: 50%;
     z-index: 5;
+  }
+  .nose-line-left {
+    /* position: absolute; */
+    width: 5px;
+    height: 15px;
+    background-color: #000000;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    /* border-top-left-radius: 110px;  100px of height + 10px of border */
+    /* border-top-right-radius: 110px; 100px of height + 10px of border */
+    border: 10px solid gray;
+    border-bottom: 0;
   }
   .nose-right {
     width: 9px;
